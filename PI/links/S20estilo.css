@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+	background-color: #FFFFFF;
+	color: rgba(0,0,0,1);
+	font-family: Arial, sans-serif;
+}
+
+/* Formatação da parte de cima do site*/
+
+header#cabecalho h1{
+	font-family: 'Montserrat', sans-serif;
+	color: #6495ED;
+}
+
+header#cabecalho h3{
+	position: absolute;
+	right: 50px;
+	top: 50px;
+}
+
+header#cabecalho img#icone {
+	position: absolute;
+	width: 120px;
+	height: 100px;
+	left: 229px;
+	top: 9px;
+}
+
+header#cabecalho{
+	border-bottom: 3px #113388 solid;
+	height: 150px;
+	background-color: rgba(135,206,235,.5);
+	padding-left: 10px;
+	padding-top: 1px;
+}
+
+nav#menu{
+	display: block;
+}
+
+nav#menu ul{
+	position: absolute;
+	top: 120px;
+	left: 300px;
+}
+
+nav#menu li{
+	padding: 10px;
+}
+
+nav#menu ul li{
+	display: inline-block;
+    padding-right: 4px;
+}
+
+nav#menu a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 14pt;
+}
+
+nav#menu a:hover{
+	text-decoration: underline;
+}
+
+nav#menu h1{
+	color: #0000FF;
+	position: absolute;
+	left: 270px;
+}
+
+header#cabecalho a{
+	text-decoration: none;
+}
+
+
+/* Interface geral do site*/
+
+div#interface{
+	width:auto;
+	background-color: white;
+	margin: 0px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+}
+
+/* Corpo do site */
+
+section#corpo h1, h2{
+	margin-left: 15px;
+}
+
+section#corpo{
+	float: left;
+	display: block;
+	width: 750px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 20px;
+	background-color: rgba(135,206,235,.3);
+	padding-top: 10px;
+}
+
+section#corpo img{
+	padding: 15px;
+	padding-bottom: 55px;
+	margin: 5px;
+	margin-left: 50px;
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 2px rgba(0,0,0,.5)
+}
+
+/* Formatação da lateral */
+
+aside#lateral{
+	display: block;
+	width: 703px;
+	height: 580px;
+	float: right;
+	background-color: rgba(135,206,235,.3);
+	padding: 15px;
+}
+
+aside#lateral h1{
+	font-size: 20pt;
+	padding-left: 15px;
+}
+
+aside#lateral h2{
+	color: green;
+	text-align: center;
+	padding: 30px;
+}
+
+table#tabelaspec{
+	border: 1px solid #113388;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table#tabelaspec td{
+	border: 1px solid #113388;
+	padding: 10px;
+	text-align: center;
+}
+
+table#tabelaspec td.ce{
+	color: #ffffff;
+	background-color: #6495ED;
+	text-align: right;
+	vertical-align: top;
+	font-weight: bold;
+}
+
+table#tabelaspec td.cd{
+	background-color: #cecece;
+}
+
+table#tabelaspec caption{
+	color:#113388;
+	font-size: 13pt;
+	font-weight: bolder;
+}
+
+table#tabelaspec caption span{
+	display: block;
+	float: right;
+	color: #000000;
+	font-size: 8pt;
+	margin-top: 10px;
+}
+
+/* Formatação do rodapé */
+
+footer#rodape{
+	clear: both;
+	border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+	text-align: center;
+}
+
+footer#rodape a{
+	text-decoration: none;
+	color: black;
+}
+
+footer#rodape a:hover{
+	text-decoration: underline;
+}

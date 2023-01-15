@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+	background-color: #FFFFFF;
+	color: rgba(0,0,0,1);
+	font-family: Arial, sans-serif;
+}
+
+/* Formatação da parte de cima do site*/
+
+header#cabecalho h1{
+	font-family: 'Montserrat', sans-serif;
+	color: #6495ED;
+}
+
+header#cabecalho h3{
+	position: absolute;
+	right: 50px;
+	top: 50px;
+}
+
+header#cabecalho img#icone {
+	position: absolute;
+	width: 120px;
+	height: 100px;
+	left: 229px;
+	top: 9px;
+}
+
+header#cabecalho{
+	border-bottom: 3px #113388 solid;
+	height: 150px;
+	background-color: rgba(135,206,235,.5);
+	padding-left: 10px;
+	padding-top: 1px;
+}
+
+header#cabecalho a{
+	text-decoration: none;
+}
+header#cabecalho form{
+	position: absolute;
+	top: 50px;
+	right: 650px;
+}
+
+nav#menu{
+	display: block;
+}
+
+nav#menu ul{
+	position: absolute;
+	top: 120px;
+	left: 300px;
+}
+
+nav#menu li{
+	padding: 10px;
+}
+
+nav#menu ul li{
+	display: inline-block;
+    padding-right: 4px;
+}
+
+nav#menu a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 14pt;
+}
+
+nav#menu a:hover{
+	text-decoration: underline;
+}
+
+nav#menu h1{
+	color: #0000FF;
+	position: absolute;
+	left: 270px;
+	top: 100px;
+}
+
+
+/* Interface geral do site*/
+
+div#interface{
+	width:auto;
+	background-color: white;
+	margin: 0px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+}
+
+/* Corpo do site */
+
+section#corpo h1, h2{
+	margin-left: 15px;
+}
+
+section#corpo{
+	display: block;
+	width: auto;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 20px;
+	background-color: rgba(125,200,235,.3);
+	padding-top: 10px;
+}
+
+section#corpo ul{
+	list-style: none;
+	text-align: center;
+	width: 95%;
+}
+section#corpo li{
+	display: inline-block;
+	background-color: #FFFFFF;
+	padding: 20px;
+	margin-bottom: 5px;
+}
+section#corpo figcaption{
+	text-align: center;
+	padding: 5px;
+}
+
+section#corpo a{
+	text-decoration: none;
+	color: black;
+}
+
+/* Formatação do rodapé */
+
+footer#rodape{
+	border-top: 1px solid #606060;
+	padding: 20px;
+}
+
+footer#rodape p{
+	text-align: center;
+}
+
+footer#rodape a{
+	text-decoration: none;
+	color: black;
+}
+
+footer#rodape a:hover{
+	text-decoration: underline;
+}
